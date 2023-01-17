@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Start() {
+export default function Home() {
   return (
     <h1>Hello World!</h1>
   )

@@ -1,13 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Menu from "./components/Menu";
 import AboutMe from "./pages/AboutMe";
-import Start from "./pages/Start";
+import Home from "./pages/Home";
 
-
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
+      <Menu />
       <Routes>
-        <Route path="/" element={<Start />} />
+        <Route path="/" element={<Home />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="*" element={<div>Page not found</div>} />
       </Routes>
@@ -15,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
