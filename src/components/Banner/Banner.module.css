@@ -20,12 +20,12 @@
   margin-bottom: 2rem;
 }
 
-.imagems {
+.images {
   position: relative;
   height: 406px;
 }
 
-.imagems > .myPhoto {
+.images > .myPhoto {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -33,7 +33,7 @@
   border-radius: 50%;
 }
 
-.imagems > .colorfulCircle {
+.images > .colorfulCircle {
   position: absolute;
   right: 7vw;
   bottom: 2.2vw;
@@ -54,15 +54,15 @@
       margin-bottom: 1.5rem;
   }
 
-  .imagems {
+  .images {
       height: 338px;
   }
 
-  .imagems > .myPhoto {
+  .images > .myPhoto {
       width: 25vw;
   }
 
-  .imagems > .colorfulCircle {
+  .images > .colorfulCircle {
       right: 10vw;
       width: 35vw;
   }
@@ -82,22 +82,22 @@
       margin-bottom: 2rem;
   }
 
-  .imagems {
+  .images {
       height: 307px;
   }
 
-  .imagems > .myPhoto, .imagems > .colorfulCircle {
+  .images > .myPhoto, .images > .colorfulCircle {
       left: 0;
       right: 0;
       margin: 0 auto;
   }
 
-  .imagems > .myPhoto {
+  .images > .myPhoto {
       width: 170px;
       transform: translate(5rem, 0px);
   }
 
-  .imagems > .colorfulCircle {
+  .images > .colorfulCircle {
       width: 240px;
       transform: translate(-1.5rem, 0px);
   }

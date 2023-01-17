@@ -15,7 +15,7 @@ export default function Banner() {
           Here I'm share many knowledges, hope you like :D
         </p>
       </div>
-      <div className={styles.imagems}>
+      <div className={styles.images}>
         <img 
           className={styles.colorfulCircle} 
           src={colorfulCircle} 
