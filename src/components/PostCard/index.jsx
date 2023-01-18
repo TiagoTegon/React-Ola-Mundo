@@ -1,3 +1,4 @@
+import MainButtom from 'components/MainButtom'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Post.module.css'
@@ -12,7 +13,7 @@ export default function PostCard({ post }) {
           alt='Post cover'
         />
         <h2 className={styles.titulo}>{post.titulo}</h2>
-        <button className={styles.botaoLer}>Ler</button>
+        <MainButtom>Ler</MainButtom>
       </div>
     </Link>
   )

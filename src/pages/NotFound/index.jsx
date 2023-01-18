@@ -2,8 +2,12 @@ import styles from './NotFound.module.css'
 
 import React from 'react'
 import erro404 from 'assets/erro_404.png'
+import MainButtom from 'components/MainButtom'
+import { useNavigate } from 'react-router-dom'
 
 export default function NotFound() {
+  const navigation = useNavigate()
+
   return (
     <>
       <div className={styles.conteudoContainer}>
@@ -15,8 +19,13 @@ export default function NotFound() {
         <p className={styles.paragrafo}>
           Wait a few moments and reload the page, or go back to the main page.
         </p>
-        <div className={styles.botoaContainer}>
-          <button>Back</button>
+        <div 
+          className={styles.botaoContainer}
+          onClick={() => navigation(-1)}
+        >
+          <MainButtom length='lg'>
+            Back
+          </MainButtom>
         </div>
         <img
           className={styles.imagemCachorro}
